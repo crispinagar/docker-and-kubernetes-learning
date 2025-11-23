@@ -24,4 +24,6 @@ Docker also gives running processes a more human-readable name, e.g. "boring_hoo
 
 We can check this is working by running `curl http://localhost:8080` or by visiting this address in our browser.
 
-`docker stop <name>` will stop a container _gracefully_, whereas `docker kill <name>` will do it _forcefully_.
+`docker stop <name>` will stop a container _gracefully_, whereas `docker kill <name>` will do it _forcefully_. "Stop" is the preferred version!
+
+## Containers lifecycle
